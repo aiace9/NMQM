@@ -1,0 +1,6 @@
+plausible simulations
+
+4 1000 2 0    test1
+9 2000 2 0    test2
+4 1000 2 2.6  test3
+4 1000 2 3.0  test4
