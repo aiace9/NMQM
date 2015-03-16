@@ -1,1 +1,2 @@
 # NMQM
+I use this repository to keep track of my Numerical methods for quantum mechanics course. The code you will find here is a useful collection of algorithms I have found on-line corrected by my self where necessary.
