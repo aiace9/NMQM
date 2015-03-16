@@ -1,0 +1,25 @@
+Punto 1
+la funzione di prova che abbiamo usato per verificare il funzionamento del programma e' stato l'orbitale 1s per l'atomo d'idrogeno.
+1s.dat
+1s.plt
+il programma da in questo caso gli opportuni risultati:
+	- la funzione potenziale e' corretta
+	- la probabilita' radiale e' corretta
+	- la funzione d'onda pure e' corretta
+per verificare la degenerazione è sufficiente simulare un atomo di idrogeno e osservare che a n fissato con il potenziale individuato l'autovalore dell'energia non cambia al variare di l.
+esempi: n=3 l=0,1,2
+
+Test 2
+proviamo un qualcosa di piu complicato: gli orbitali 2s e 2p (sempre idrogeno)
+2s.dat   2p.dat
+2s.plt   2s.dat
+
+Punto 2
+Funziona, testare tutte le ipotesi presenti nell'opportuna cartella
+
+Punto 3
+va, bisogna solo capire quanto vale a0... questo devo chiederlo.
+
+Punto 4
+modifichiamo leggermente il potenziale con yukawa.
+usando il file pt4.dat si vede chiaramente che la degenerazione è scomparsa.
