@@ -1,0 +1,8 @@
+Punto 1
+il file 1.dat mostra una soluzione iniziale stabile punto di partenza per le nostre analisi.
+il file 2.dat avvicina il punto iniziale all'origine. L'algoritmo rimane stabile fino ad rmin troppo piccoli (circa 1 per il caso considerato) dove tutti i valori diventano NAN
+i valori della funzione d'onda esplodono molto rapidamente a causa del potenziale a cui sono sottoposti( siamo nella zona altamente repulsiva)
+il file 3.dat allontana il punto massimo e incrementa la mesh, non si notano modifiche nel grafico in accordo con la teoria che prevedeva un buon comportameto già a 5sigma. 
+il file 4.dat diminuisce il numero di l e si perdono tutti i contributi interessanti.
+il file 5.dat aumenta il numero di l e si vede come la coda acquisti maggiore importanza tendendo ad una funzione decrescente
+Punto2
