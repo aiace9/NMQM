@@ -1,0 +1,5 @@
+punto 1
+il prgramma con dati opportuni restituisce risultati corretti, da esempio:
+	per una buca di profondità 1 rydberg e larghezza 1 qualcosa(scoprilo) con una larhezza di simulazione pari a 100 (qualcosa... angston??) e una base da 1000 onde il risultato è più che corretto.
+	per una buca di profondità 100 rydberg e larhezza 1 con una larghezza di simulaizone di 10 e 1000 onde si ottiene una sovrastima del ground state 100-93.17 < pi**2/1 come atteso.
+punto 2
