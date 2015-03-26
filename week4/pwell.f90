@@ -89,6 +89,25 @@ program potentialwell
   !       verify normalization (if desired):
   write (*,"('   norm: ',f12.6)") norm
   close(7)
+
+  open (8,file='fs-wfc.out',status='unknown',form='formatted')
+  dx = 0.01_dp
+  nr = nint(a/2.0_dp/dx)
+  norm = 0.d0
+  do i=-nr, nr
+     x = dx*i
+     f = 0.d0
+     do j=1,npw
+        f = f + h(j,2)*exp((0.0,1.0)*kn(j)*x)/sqrt(a)
+     end do
+     prob = f*conjg(f)
+     norm = norm + prob*dx
+     write(8,'(f12.6,3f10.6)') x, prob, f
+  end do 
+  !       verify normalization (if desired):
+  write (*,"('   norm: ',f12.6)") norm
+  close(8)
+
   deallocate ( h, work, e, kn)
   go to 10
 end program potentialwell

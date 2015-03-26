@@ -1,5 +1,11 @@
 punto 1
-il prgramma con dati opportuni restituisce risultati corretti, da esempio:
+	il prgramma con dati opportuni restituisce risultati corretti, da esempio:
 	per una buca di profondità 1 rydberg e larghezza 1 qualcosa(scoprilo) con una larhezza di simulazione pari a 100 (qualcosa... angston??) e una base da 1000 onde il risultato è più che corretto.
 	per una buca di profondità 100 rydberg e larhezza 1 con una larghezza di simulaizone di 10 e 1000 onde si ottiene una sovrastima del ground state 100-93.17 < pi**2/1 come atteso.
 punto 2
+	il punto è che bisogna trovare l'opportuna combinazione di a e n, un a troppo piccolo non permette alla funzione di evolvere in maniera completa, viceversa un a troppo grande fa perdere tempo computazionale. E' importante osservare inoltre la dipendenza di n da a, per a grandi è necessario avere più funzioni in modo da mantenere la stessa "densità".
+	A favore della prima affermazione si nota che per a piccoli il programma non è in grado di normalizzare opportunamente la funzione d'onda simulata.
+putno 3
+	il plot è semplicemente il comando plot, attenzione a non finire fuori dalla buca con stati più elevati del ground state... perché io cercavo il baco nel codice lol.....
+	la funzione diventa immaginaria.... brutta bega...
+	
