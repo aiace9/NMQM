@@ -1,0 +1,6 @@
+Punto1
+	essendo le unità di misura del programma ryedberg la soluzione complessiva dovrebbe tendere a uno. Ma ciò non accade se non per un numero elevato di gaussiane e anche così si hanno elevate difficoltà, questo perche lo stato uno S, sopprattuto nei pressi dell'origine e lontano sulla coda non è ben approssimato dalle gaussiane ( vedi punto successivo )
+Punto2
+	come possiamo notare dal primo plot, non tutto va bene: la funzione prodotta come somma della garussine va inverita nel segno, not a big deal, ma a questa si aggiunge un ulteriore porblema: non combacinao, manca un fattore sqrt(4*pi) perchè? Il primo algoritmo riduceva il problema ad una quastione radiale questo invece cerca di scoprire, forse potrebbe anche uscire dai fattori di normalizzazione delle gaussine
+Punto3
+	Si ottiene un ottimo rultato per le onde S un po peggio per le onde P, comunque accettabile, si potrebbe sovrapporre l'onda genrata dall' altro programma che risolve l'ed
